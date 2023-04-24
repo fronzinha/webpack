@@ -1,6 +1,6 @@
 function juntaDoisNome(nome, sobrenome) {
     if (nome == "" && sobrenome == "")
-        return "Falta coisa"
+        return "Preencha todos os campos"
 
     return `${nome} ${sobrenome}`
 }
@@ -14,7 +14,7 @@ function caputarInputNome(id) {
 }
 
 function resultadoConcat(nomeCompleto) {
-    
+
     const elementoSaida = document.getElementById("retornoConcat")
     elementoSaida.innerHTML = (nomeCompleto)
 }
@@ -24,5 +24,4 @@ module.exports = {
     caputarInputNome,
     resultadoConcat
 }
-
 

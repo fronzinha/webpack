@@ -34,8 +34,8 @@ function iniciaConcat() {
     // elementoSaida.innerHTML = (nomeCompleto)
 }
 
+
 function dividirDoisNumeros() {
-    // Entrada
 
     const elementoNumero01 = caputarInputNumero("inputNum01")
     const elementoNumero02 = caputarInputNumero("inputNum02")
@@ -45,14 +45,17 @@ function dividirDoisNumeros() {
         const resultadoDivisao = executarDivisao(elementoNumero01, elementoNumero02)
         const resultado = mostrarDivisao(resultadoDivisao)
     }
-
-
-    // SEM A FUNCAO VALICADAO
-    // processamento
-    // const resultadoDivisao = executarDivisao(elementoNumero01, elementoNumero02)
-
-    // Saida
-    // const resultado = mostrarDivisao(resultadoDivisao)
-
 }
+
+//
+
+        // SEM A FUNCAO VALICADAO
+        // processamento
+        // const resultadoDivisao = executarDivisao(elementoNumero01, elementoNumero02)
+
+        // Saida
+        // const resultado = mostrarDivisao(resultadoDivisao)
+
+
+
 

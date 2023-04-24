@@ -17,8 +17,6 @@ function mostrarDivisao(resultadoDaDivisao) {
 
 
 }
-
-
 function validacao(elementoNumero01, elementoNumero02) {
 
     const validar = document.getElementById("retornoDiv")
@@ -31,10 +29,9 @@ function validacao(elementoNumero01, elementoNumero02) {
     return true
 }
 
-
 module.exports = {
     executarDivisao,
     caputarInputNumero,
     mostrarDivisao,
-    validacao
+    validacao,
 }

@@ -11,12 +11,12 @@ const { juntaDoisNome } = require("../js/gerenciaDeNomes")
             expect(resultado).toBe("João Fronza")
         })
    
-        it("deve retornar Falta coisa ao receber vazio em nome e sobrenome", () => {
+        it("deve retornar Preencha todos os campos ao receber vazio em nome e sobrenome", () => {
             const nome = ""
             const sobrenome = ""
 
             const resultado = juntaDoisNome(nome, sobrenome)
 
-            expect(resultado).toBe("Falta coisa")
+            expect(resultado).toBe("Preencha todos os campos")
         })
     })
